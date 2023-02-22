@@ -34,7 +34,8 @@ Cada versão do simulador terá uma cópia de <b>dataset.db</b> no diretório <b
     <li>dataset_band_rand.db para simulation_v4_band_rand.R</li>
 </ul>
 
-O simulador executa por meio do comando <b>Rscript <nome_do_simulador.R></b> 
+Por questões de espaço, os arquivos de dataset estão armazenados a parte, no endereço abaixo:<br/>
+https://www.dropbox.com/s/15hs5lonawnlgjj/dataset_allocation.tar.gz?dl=0
 
 Exemplo de como fica a estrutura de pastas para a simulação usando simulation_v4_band.R:
 .<br/>
@@ -70,7 +71,8 @@ Exemplo de como fica a estrutura de pastas para a simulação usando simulation_
     ├── chainEvaluationListRand.csv<br/>
     └── dataset.db<br/>
 <br/>
-4 directories, 27 files
+
+<b>O simulador executa por meio do comando Rscript <nome_do_simulador.R></b> 
 
 <b>4 – Análise dos resultados</b>
 
