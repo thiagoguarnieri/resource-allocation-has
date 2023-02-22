@@ -21,3 +21,7 @@ O presente conjunto de scripts visa a simulação de realocação de recursos em
       <li>simulation_v4_band_rand.R: simulador associado à previsão e alocação aleatória</li>
     </ul>
 </ul>
+
+<b>3 – Execução do mecanismo</b>
+
+Para executar o mecanismo, é necessário copiar o dataset de teste (<b>dataset.db</b>) e a tabela de candidatas () para o diretório <b>slices</b>. Além disso, uma cópia idêntica do <b>dataset.db</b> deve ficar na pasta <b>bases_sinteticas</b>. Quando o simulador executa, ele armazena na cópia de <b>dataset.db</b> da pasta <b>bases_sinteticas</b> as modificações na alocação feitas nos clientes da base original, que está no diretório <b>slices</b>.
