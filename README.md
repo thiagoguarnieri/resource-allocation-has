@@ -34,7 +34,43 @@ Cada versão do simulador terá uma cópia de <b>dataset.db</b> no diretório <b
     <li>dataset_band_rand.db para simulation_v4_band_rand.R</li>
 </ul>
 
-O simulador executa por meio do comando Rscript <nome_do_simulador.R>. 
+O simulador executa por meio do comando <b>Rscript <nome_do_simulador.R></b> 
+
+Exemplo de como fica a estrutura de pastas para a simulação usando simulation_v4_band.R:
+.
+├── modelo_um
+│   ├── centroids.csv
+│   ├── centroidsMax.csv
+│   ├── centroidsMin.csv
+│   ├── xgb1
+│   ├── xgb2
+│   ├── xgb3
+│   ├── xgb4
+│   ├── xgb5
+│   └── xgb6
+├── modelo_zero
+│   ├── centroids.csv
+│   ├── centroidsMax.csv
+│   ├── centroidsMin.csv
+│   ├── readme.txt
+│   ├── xgb1
+│   ├── xgb2
+│   ├── xgb3
+│   ├── xgb4
+│   ├── xgb5
+│   └── xgb6
+├── simulation_v4_band.R
+├── simulation_v4_band_rand.R
+├── simulation_v4_engagement.R
+├── simulation_v4_engagement_rand.R
+└── slices
+    ├── bases_sinteticas
+    │   └── dataset_band.db
+    ├── chainEvaluationList.csv
+    ├── chainEvaluationListRand.csv
+    └── dataset.db
+
+4 directories, 27 files
 
 <b>4 – Análise dos resultados</b>
 
