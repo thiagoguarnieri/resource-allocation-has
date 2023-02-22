@@ -37,39 +37,39 @@ Cada versão do simulador terá uma cópia de <b>dataset.db</b> no diretório <b
 O simulador executa por meio do comando <b>Rscript <nome_do_simulador.R></b> 
 
 Exemplo de como fica a estrutura de pastas para a simulação usando simulation_v4_band.R:
-.
-├── modelo_um
-│   ├── centroids.csv
-│   ├── centroidsMax.csv
-│   ├── centroidsMin.csv
-│   ├── xgb1
-│   ├── xgb2
-│   ├── xgb3
-│   ├── xgb4
-│   ├── xgb5
-│   └── xgb6
-├── modelo_zero
-│   ├── centroids.csv
-│   ├── centroidsMax.csv
-│   ├── centroidsMin.csv
-│   ├── readme.txt
-│   ├── xgb1
-│   ├── xgb2
-│   ├── xgb3
-│   ├── xgb4
-│   ├── xgb5
-│   └── xgb6
-├── simulation_v4_band.R
-├── simulation_v4_band_rand.R
-├── simulation_v4_engagement.R
-├── simulation_v4_engagement_rand.R
-└── slices
-    ├── bases_sinteticas
-    │   └── dataset_band.db
-    ├── chainEvaluationList.csv
-    ├── chainEvaluationListRand.csv
-    └── dataset.db
-
+.<br/>
+├── modelo_um<br/>
+│   ├── centroids.csv<br/>
+│   ├── centroidsMax.csv<br/>
+│   ├── centroidsMin.csv<br/>
+│   ├── xgb1<br/>
+│   ├── xgb2<br/>
+│   ├── xgb3<br/>
+│   ├── xgb4<br/>
+│   ├── xgb5<br/>
+│   └── xgb6<br/>
+├── modelo_zero<br/>
+│   ├── centroids.csv<br/>
+│   ├── centroidsMax.csv<br/>
+│   ├── centroidsMin.csv<br/>
+│   ├── readme.txt<br/>
+│   ├── xgb1<br/>
+│   ├── xgb2<br/>
+│   ├── xgb3<br/>
+│   ├── xgb4<br/>
+│   ├── xgb5<br/>
+│   └── xgb6<br/>
+├── simulation_v4_band.R<br/>
+├── simulation_v4_band_rand.R<br/>
+├── simulation_v4_engagement.R<br/>
+├── simulation_v4_engagement_rand.R<br/>
+└── slices<br/>
+    ├── bases_sinteticas<br/>
+    │   └── dataset_band.db<br/>
+    ├── chainEvaluationList.csv<br/>
+    ├── chainEvaluationListRand.csv<br/>
+    └── dataset.db<br/>
+<br/>
 4 directories, 27 files
 
 <b>4 – Análise dos resultados</b>
