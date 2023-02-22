@@ -7,7 +7,7 @@ O presente conjunto de scripts visa a simulação de realocação de recursos em
 <b>2 – Descrição dos arquivos</b>
 
 <ul>
-<li>Modo aumento de engajamento: o simulador age identificando clientes prestes a sair e rearranja sua adaptação para tentar mitigar o abandono.</li>
+<li><b>Modo aumento de engajamento</b>: o simulador age identificando clientes prestes a sair e rearranja sua adaptação para tentar mitigar o abandono.</li>
     <ul>
       <li>simulation_v4_engagement.R: simulador associado ao previsor para alocação e previsão de engajamento</li>
       <li>simulation_v4_engagement_rand.R: simulador associado à previsão e alocação aleatória</li>
@@ -15,7 +15,7 @@ O presente conjunto de scripts visa a simulação de realocação de recursos em
 </ul>
 
 <ul>
-<li>Modo economia de recursos: o simulador age identificando clientes que irão permanecer e determina um regime de adaptação mais econômico mas que potencialmente perserve o engajamento.</li>
+<li><b>Modo economia de recursos</b>: o simulador age identificando clientes que irão permanecer e determina um regime de adaptação mais econômico mas que potencialmente perserve o engajamento.</li>
     <ul>
       <li>simulation_v4_band.R: simulador associado ao previsor para alocação e previsão de engajamento</li>
       <li>simulation_v4_band_rand.R: simulador associado à previsão e alocação aleatória</li>
